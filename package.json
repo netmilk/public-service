@@ -1,0 +1,33 @@
+{
+  "name": "public-service",
+  "version": "0.0.1",
+  "description": "Example Contract Driven API Service providing and consuming a design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Adam Kliment <adam@netmilk.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "api-landscape": "^0.0.1"
+  },
+  "dependencies": {
+    "backend-api-design": "netmilk/backend-api-design",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.5.0",
+    "express-rate-limit": "^3.3.2",
+    "public-api-design": "netmilk/backend-api-design"
+  },
+  "api-landscape": {
+    "service": {
+      "consume": [
+        "backend-api-design"
+      ],
+      "provide": [
+        "public-api-design"
+      ]
+    }
+  }
+}
