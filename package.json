@@ -10,7 +10,7 @@
   "author": "Adam Kliment <adam@netmilk.net>",
   "license": "MIT",
   "devDependencies": {
-    "api-landscape": "^0.0.2"
+    "api-landscape": "^0.1.2"
   },
   "dependencies": {
     "backend-api-design": "netmilk/backend-api-design",
